@@ -25,3 +25,5 @@ Before running the project, make sure you have installed:
 ## Run Test (UI)
 
 - npm run test:ui-mode
+- OR 
+- npx playwright test --ui
