@@ -14,39 +14,14 @@ Before running the project, make sure you have installed:
 
 ## How to Clone
 
-git glone https://github.com/quinvincentsy/playwright-framework.git
-cd playwright-framework
+- git glone https://github.com/quinvincentsy/playwright-framework.git
+- cd playwright-framework
 
 ## Install Dependencies
 
-npm install
-npx playwright install
+- npm install
+- npx playwright install
 
 ## Run Test (UI)
 
-npm run test:ui-mode
-
-## Project Structure
-
-playwright-automation/
-│
-├── playwright.config.ts
-├── package.json
-├── tsconfig.json
-│
-├── tests/
-│   ├── api/
-│   │   └── login.api.spec.ts
-│   │
-│   └── ui/
-│       └── login.spec.ts
-│
-├── pages/
-│   ├── LoginPage.ts
-│   └── DashboardPage.ts
-│
-├── fixtures/
-│   └── users.json
-│
-└── utils/
-    └── apiClient.ts
+- npm run test:ui-mode
