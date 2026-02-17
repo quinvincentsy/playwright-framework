@@ -14,21 +14,20 @@ Before running the project, make sure you have installed:
 
 ## How to Clone
 
-```bash
-git clone https://github.com/quinvincentsy/playwright-framework.git
+git glone https://github.com/quinvincentsy/playwright-framework.git
 cd playwright-framework
 
-Install Dependencies
+## Install Dependencies
+
 npm install
 npx playwright install
 
-npm install installs all project dependencies.
-npx playwright install installs the required browsers.
+## Run Test (UI)
 
-Run Test (UI)
 npm run test:ui-mode
 
-Project Structure:
+## Project Structure
+
 playwright-automation/
 │
 ├── playwright.config.ts
