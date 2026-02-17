@@ -1,0 +1,20 @@
+{
+    "validUser": {
+        "email": "teacher1@for.testing",
+        "password": "Pass123!"
+    },
+    "invalidUser": {
+        "email": "wrong@goreact.com",
+        "password": "WrongPass"
+    },
+    "signUpUser": {
+        "owner": {
+            "email": "owner1@test.hello",
+            "password": "Pass123!"
+        },
+        "participant": {
+            "email": "participant1@test.hello",
+            "password": "Pass123!"
+        }
+    }
+}
