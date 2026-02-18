@@ -6,7 +6,7 @@ This is a Playwright automation framework using TypeScript.
 
 Make sure you have installed:
 
-- Node.js (includes npm)
+- Node.js
 - Git
 - A code editor (VS Code recommended)
 
