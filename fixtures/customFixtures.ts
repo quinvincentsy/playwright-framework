@@ -36,7 +36,8 @@ export const test = base.extend<MyFixtures>({
             withLicense: true,
         });
 
-        const context = await browser.newContext({ permissions: ['camera', 'microphone'] });
+        // const context = await browser.newContext({ permissions: ['camera', 'microphone'] });
+        const context = await browser.newContext();
         const page = await context.newPage();
 
         const loginPage = new LoginPage(page);
@@ -59,7 +60,8 @@ export const test = base.extend<MyFixtures>({
             seenTour: true,
         });
 
-        const context = await browser.newContext({ permissions: ['camera', 'microphone'] });
+        // const context = await browser.newContext({ permissions: ['camera', 'microphone'] });
+        const context = await browser.newContext();
         const page = await context.newPage();
 
         const loginPage = new LoginPage(page);
