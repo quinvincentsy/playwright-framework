@@ -4,7 +4,7 @@ This is a Playwright automation framework using TypeScript.
 
 ## Preconditions
 
-Before running the project, make sure you have installed:
+Make sure you have installed:
 
 - Node.js (includes npm)
 - Git
