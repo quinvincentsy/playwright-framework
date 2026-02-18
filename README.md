@@ -6,15 +6,13 @@ This is a Playwright automation framework using TypeScript.
 
 Before running the project, make sure you have installed:
 
-- VS Code (or any code editor)
-- Node.js and npm
+- Node.js (includes npm)
 - Git
-- TypeScript (if using TypeScript)
-- Playwright
+- A code editor (VS Code recommended)
 
 ## How to Clone
 
-- git glone https://github.com/quinvincentsy/playwright-framework.git
+- git clone https://github.com/quinvincentsy/playwright-framework.git
 - cd playwright-framework
 
 ## Install Dependencies
