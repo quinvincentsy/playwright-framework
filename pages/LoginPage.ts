@@ -22,6 +22,7 @@ export class LoginPage {
     }
 
     async selectionRegionUS() {
+        await expect(this.regionUS).toBeVisible();
         await this.regionUS.click();
     }
 
