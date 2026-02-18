@@ -6,8 +6,8 @@ test.describe('GoReact Login - API', () => {
     test('should login successfully via API', async ({ request }) => {
         const response = await request.post('https://dev.goreact.com/api/v2/users:login', {
             data: {
-                username: users.validUser.email,
-                password: users.validUser.password
+                username: users.validUser.instructor.email,
+                password: users.validUser.instructor.password
             }
         });
 
@@ -15,14 +15,14 @@ test.describe('GoReact Login - API', () => {
 
         const body = await response.json();
         expect(body).toHaveProperty('user');
-        expect(body.user.email).toBe(users.validUser.email);
+        expect(body.user.email).toBe(users.validUser.instructor.email);
     });
 
     test('should fail login with invalid credentials', async ({ request }) => {
         const response = await request.post('https://dev.goreact.com/api/v2/users:login', {
             data: {
-                username: users.invalidUser.email,
-                password: users.invalidUser.password
+                username: users.invalidUser.instructor.email,
+                password: users.invalidUser.instructor.password
             }
         });
 
