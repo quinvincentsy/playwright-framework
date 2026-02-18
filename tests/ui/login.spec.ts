@@ -11,7 +11,7 @@ test.describe('GoReact Login - UI', () => {
         loginPage = new LoginPage(page);
         dashboardPage = new DashboardPage(page);
         await loginPage.goto();
-        await loginPage.selectionRegionUS();
+        await loginPage.selectRegion('americas');
     });
 
     test.afterEach(async ({ page }) => {
